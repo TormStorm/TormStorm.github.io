@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-  padding-left: 25%;
+  padding-left: 28%;
 }
 
 .container {
@@ -27,42 +27,43 @@ body {
 }
 
 header {
-  margin-bottom: 50px;
+  background-color: #292929;
+  position:fixed;
+  width: 100%;
 }
 
   h1 {
   text-align: left;
   padding-left: 100px;
-  padding-top: 40px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 
 div.main {
   width: 50%;
-  min-height: 850px;
+  min-height: 750px;
   margin: auto;
-  border: 1px solid #ffff;
   border-radius: 5px;
   text-align: center;
-  background-color: #212529;
   padding-bottom: 50px;
   margin-bottom: 100px;
 }
 
 div.secondary {
+  background-color: #1f1f1f;
   width: 80%;
-  min-height: 650px;
-  margin: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #ffff;
   border-radius: 5px;
   text-align: center;
-  background-color: #212529;
 }
 
 div.main p {
   text-align: justify;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:30px;
+  margin-bottom:30px;
   margin-left:30px;
   margin-right:30px;
 }
@@ -76,7 +77,33 @@ h3 {
   padding-bottom: 15px;
 }
 
+a {
+
+color: white;
+text-decoration: underline;
+
+}
+
+a:hover {
+color: white;
+}
+
 
 footer{
+  color: white;
+  background-color: #292929;
   text-align: center;
+  text-decoration: none;
+}
+
+#adImageL{
+  position:fixed;
+  top:30%; 
+  left:10%;
+}
+
+#adImageR{
+  position:fixed;
+  top:30%; 
+  right:10%;
 }
