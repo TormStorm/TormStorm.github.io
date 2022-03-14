@@ -20,31 +20,6 @@ body {
   padding-left: 29%;
 }
 
- @media (max-width: 1300px) {
-#header {
-  padding-left: 24%;
-}
-}
-
- @media (max-width: 1000px) {
-#header {
-  padding-left: 14%;
-}
-}
-
- @media (max-width: 600px) {
-#header{
-  height: 55px;
-  padding-left: 10%;
-}
-}
-
- @media (max-width: 600px) {
-#header a{
-  font-size: 14px;
-}
-}
-
 .container {
   width: auto;
   max-width: 680px;
@@ -90,17 +65,107 @@ div.main p {
   margin: 30px;
 }
 
- @media (max-width: 1300px) {
-div.main {
-  width: 60%;
-}
+
+/* Breakpoints start */
+
+/* Breaking Header not working correctly */
+
+@media (max-width: 576px) {
+
+  div.main {
+    width: 100%;
+  }
+
+  div.secondary {
+    width: 100%;
+
+  }
+
+  #header{
+    height: 55px;
+    padding-left: 10%;
+  }
+
+  #header a {
+    font-size: 14px;
+  }
+
+  #profPic{
+    display: none;
+  }
+
 }
 
- @media (max-width: 1000px) {
-div.main {
-  width: 85%;
+
+@media (max-width: 768px) {
+
+  div.main {
+    width: 90%;
+  }
+
+  #header {
+    padding-left: 10%;
+  }
+
+  #header a {
+    font-size: 13px;
+  }
+
+  
 }
+
+@media (max-width: 992px) {
+
+  div.main {
+    width: 85%;
+  }
+
+  div.secondary {
+    width: 90%;
+  }
+
+    #header {
+    padding-left: 24%;
+  }
+
+
+
+  h1 {
+    text-align: left;
+    padding-left: 6%;
+
+  }
+  
 }
+
+@media (max-width: 1200px) {
+
+  div.main {
+    width: 60%;
+  }
+
+  #header {
+    padding-left: 24%;
+  }
+
+  #adImageL {
+    display: none;
+  }
+
+  #adImageR {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  
+}
+
+
+/* Breakpoints end */
+
 
 h3 {
   font-size: 25px;
@@ -140,24 +205,4 @@ footer{
   position:fixed;
   top:30%; 
   right:8%;
-}
-
- @media (max-width: 1300px) {
-
-  #adImageL {
-  display: none;
-  }
-}
-
- @media (max-width: 1300px) {
-
-  #adImageR {
-  display: none;
-  }
-}
-
- @media (max-width: 600px) {
-#profPic{
-  display: none;
-}
 }
