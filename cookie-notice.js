@@ -6,7 +6,7 @@
 /* set the variables */
 
 window.gdpr_message = 'This website does not use cookies to provide you with an improved user experience. By continuing you consent to cookies not being used. For more information please visit my';
-window.gdpr_link = 'https://www.i-dont-care-about-cookies.eu';
+window.gdpr_link = 'https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies';
 window.gdpr_link_text = 'privacy policy';
 window.gdpr_button_text = 'OK';
 window.gdpr_isactive = true;
