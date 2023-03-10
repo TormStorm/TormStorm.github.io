@@ -40,6 +40,13 @@ header {
   padding-bottom: 30px;
 }
 
+h3 {
+  font-size: 25px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 div.main {
   width: 50%;
   min-height: 750px;
@@ -59,13 +66,18 @@ div.secondary {
   border: 1px solid #ffff;
   border-radius: 5px;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 div.main p {
   text-align: justify;
-  margin: 30px;
 }
 
+div.secondary p {
+  margin: 3px;
+}
 
 /* Breakpoints start */
 
@@ -165,17 +177,10 @@ div.main p {
 /* Breakpoints end */
 
 
-h3 {
-  font-size: 25px;
-  text-align: left;
-  padding-left: 30px;
-  padding-top: 15px;
-}
-
 a {
 
 color: white;
-text-decoration: underline;
+text-decoration: none;
 
 }
 
