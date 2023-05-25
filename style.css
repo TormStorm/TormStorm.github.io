@@ -4,10 +4,17 @@ html {
   min-height: 100%;
 }
 body {
+  background-color:#181818;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 15px;
   margin-bottom: 50px; /* Margin bottom by footer height */
 }
+
+.light-mode .footer {
+  background-color:#D3D3D3;
+  color:black;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -20,10 +27,36 @@ body {
   padding-left: 29%;
 }
 
+.light-mode {
+  background-color:#F3F3F3;
+  color:black;
+}
+
 .container {
   width: auto;
   max-width: 680px;
   padding: 0 15px;
+}
+
+.light-mode header {
+  background-color:#D3D3D3;
+  color:black;
+}
+
+.light-mode #profPic {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.bi-lightbulb {
+	color:#fff;
+	background:none;
+	border:none
+}
+
+.light-mode .bi-lightbulb {
+   -webkit-filter: invert(1);
+   filter: invert(1);
 }
 
 header {
@@ -40,11 +73,19 @@ header {
   padding-bottom: 30px;
 }
 
+.light-mode h1 {
+  color:black;
+}
+
 h3 {
   font-size: 25px;
   text-align: left;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.light-mode h3 {
+  color:black;
 }
 
 div.main {
@@ -55,6 +96,19 @@ div.main {
   text-align: center;
   padding-bottom: 50px;
   margin-bottom: 100px;
+}
+
+.light-mode div.secondary {
+  background-color:#ffff;
+  border: 1px solid #181818;
+}
+
+.light-mode .text-white {
+  color: black !important;
+}
+
+.light-mode .nav-link.active {
+	background-color: #bebebe !important;
 }
 
 div.secondary {
@@ -69,6 +123,14 @@ div.secondary {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+}
+
+.light-mode div.main div.secondary p {
+  color:black;
+}
+
+.light-mode a {
+  color:black;
 }
 
 div.main p {
@@ -208,4 +270,14 @@ footer{
   position:fixed;
   top:30%; 
   right:8%;
+}
+
+.light-mode #adImageL{
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.light-mode #adImageR{
+   -webkit-filter: invert(1);
+   filter: invert(1);
 }
