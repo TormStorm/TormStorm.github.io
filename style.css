@@ -4,7 +4,7 @@ html {
   min-height: 100%;
 }
 body {
-  background-color:#181818;
+  background-color:#242424;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 15px;
   margin-bottom: 50px; /* Margin bottom by footer height */
@@ -48,13 +48,13 @@ body {
    filter: invert(1);
 }
 
-.bi-lightbulb {
+.bi-lightbulb-fill {
 	color:#fff;
 	background:none;
 	border:none
 }
 
-.light-mode .bi-lightbulb {
+.light-mode .bi-lightbulb-fill {
    -webkit-filter: invert(1);
    filter: invert(1);
 }
@@ -100,7 +100,7 @@ div.main {
 
 .light-mode div.secondary {
   background-color:#ffff;
-  border: 1px solid #181818;
+  border: 1px solid #BDBDBD;
 }
 
 .light-mode .text-white {
@@ -112,17 +112,24 @@ div.main {
 }
 
 div.secondary {
-  background-color: #1f1f1f;
   width: 80%;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #ffff;
+  border: 1px solid #424242;
   border-radius: 5px;
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+}
+
+.light-mode div.secondary:hover {
+background-color:#f5f5f5 !important;
+}
+
+div.secondary:hover {
+background-color:#2C2C2C;
 }
 
 .light-mode div.main div.secondary p {
