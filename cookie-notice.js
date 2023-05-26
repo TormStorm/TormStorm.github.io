@@ -57,7 +57,7 @@ setTimeout(function () {
         expiresIn: 30,
         buttonBgColor: '#6c757d',
         buttonTextColor: '#fff',
-        noticeBgColor: '#1f1f1f',
+        noticeBgColor: '#292929',
         noticeTextColor: '#fff',
         linkColor: '#009fdd',
         linkBgColor: '#000',
