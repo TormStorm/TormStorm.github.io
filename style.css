@@ -256,12 +256,3 @@ footer{
   right:8%;
 }
 
-.light-mode #adImageL{
-   -webkit-filter: invert(1);
-   filter: invert(1);
-}
-
-.light-mode #adImageR{
-   -webkit-filter: invert(1);
-   filter: invert(1);
-}
