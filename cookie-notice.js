@@ -55,11 +55,11 @@ setTimeout(function () {
         },
 
         expiresIn: 30,
-        buttonBgColor: '#6c757d',
+        buttonBgColor: '#161e27',
         buttonTextColor: '#fff',
-        noticeBgColor: '#292929',
+        noticeBgColor: '#1e2936',
         noticeTextColor: '#fff',
-        linkColor: '#009fdd',
+        linkColor: '#161e27',
         linkBgColor: '#000',
         linkTarget: '_blank',
         debug: false
